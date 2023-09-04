@@ -6,6 +6,7 @@ const LightColorPalette = {
   panelBorder: "#364495",
   panelTitleBackground: "#364495",
   panelBackground: "#F9F9F9",
+  errorMessage: "#ef5350",
   /*Sample Colors*/
   text: "#434449",
   white: "#F5F5F5",
