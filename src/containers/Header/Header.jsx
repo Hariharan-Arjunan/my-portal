@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ThemedTitle from "../../ui/ThemedTitle/ThemedTitle";
+import ThemedTitle from "../../components/ui/ThemedTitle/ThemedTitle";
 
 const ThemedHeader = styled.header`
   width: 100%;

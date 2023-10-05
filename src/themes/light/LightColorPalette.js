@@ -7,6 +7,17 @@ const LightColorPalette = {
   panelTitleBackground: "#364495",
   panelBackground: "#F9F9F9",
   errorMessage: "#ef5350",
+  input: {
+    border: {
+      error: "#ef5350",
+      default: "#b7c1f8",
+      active: "",
+    },
+    disabled: "#6f7077",
+  },
+  radioButton: {
+    text: "black",
+  },
   /*Sample Colors*/
   text: "#434449",
   white: "#F5F5F5",
