@@ -12,10 +12,10 @@ const InputContainer = styled.div`
 `;
 
 const FormField = (props) => {
-  const { children, title, errorMessage } = props;
+  const { children, title, name, errorMessage } = props;
   return (
     <Container>
-      <ThemedLabel>{title}</ThemedLabel>
+      <ThemedLabel fieldName={name}>{title}</ThemedLabel>
       <InputContainer>{children}</InputContainer>
       {errorMessage && !!errorMessage.length && (
         <ThemedErrorMessage>{errorMessage}</ThemedErrorMessage>

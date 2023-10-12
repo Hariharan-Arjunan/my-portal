@@ -20,15 +20,16 @@ const RadioGroupField = (props) => {
         // }}
       >
         {({ input, meta }) => {
-          const errorMessage =
-            meta?.error?.details && meta.touched
-              ? meta.error?.details[0]?.message
-              : undefined;
+          // const errorMessage =
+          //   meta?.error?.details && meta.touched
+          //     ? meta.error?.details[0]?.message
+          //     : undefined;
           return (
             <>
               <FormField
                 title="This is sample question"
-                errorMessage={errorMessage}
+                name={name}
+                // errorMessage={errorMessage}
               >
                 <ThemedRadioGroupInput {...input} options={options} />
               </FormField>
