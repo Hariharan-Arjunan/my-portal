@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/github.io/my-portal/static/css/main.1e4d29a8.css",
-    "main.js": "/github.io/my-portal/static/js/main.1f9d517f.js",
-    "static/media/Form.png": "/github.io/my-portal/static/media/Form.12b600843bd97258b669.png",
-    "static/media/Question.png": "/github.io/my-portal/static/media/Question.040081353881e50db9b9.png",
-    "static/media/UiCmp.png": "/github.io/my-portal/static/media/UiCmp.219b6973870212d2fc7b.png",
-    "static/media/Src.png": "/github.io/my-portal/static/media/Src.507d990d3c97d74ff13e.png",
-    "static/media/FormFields.png": "/github.io/my-portal/static/media/FormFields.0e193244a8eff83e99f0.png",
-    "static/media/FunctionalCmp.png": "/github.io/my-portal/static/media/FunctionalCmp.bf675c03a6e0d4738617.png",
-    "index.html": "/github.io/my-portal/index.html",
-    "main.1e4d29a8.css.map": "/github.io/my-portal/static/css/main.1e4d29a8.css.map",
-    "main.1f9d517f.js.map": "/github.io/my-portal/static/js/main.1f9d517f.js.map"
+    "main.css": "/my-portal/static/css/main.1e4d29a8.css",
+    "main.js": "/my-portal/static/js/main.9d7ec347.js",
+    "static/media/Form.png": "/my-portal/static/media/Form.12b600843bd97258b669.png",
+    "static/media/Question.png": "/my-portal/static/media/Question.040081353881e50db9b9.png",
+    "static/media/UiCmp.png": "/my-portal/static/media/UiCmp.219b6973870212d2fc7b.png",
+    "static/media/Src.png": "/my-portal/static/media/Src.507d990d3c97d74ff13e.png",
+    "static/media/FormFields.png": "/my-portal/static/media/FormFields.0e193244a8eff83e99f0.png",
+    "static/media/FunctionalCmp.png": "/my-portal/static/media/FunctionalCmp.bf675c03a6e0d4738617.png",
+    "index.html": "/my-portal/index.html",
+    "main.1e4d29a8.css.map": "/my-portal/static/css/main.1e4d29a8.css.map",
+    "main.9d7ec347.js.map": "/my-portal/static/js/main.9d7ec347.js.map"
   },
   "entrypoints": [
     "static/css/main.1e4d29a8.css",
-    "static/js/main.1f9d517f.js"
+    "static/js/main.9d7ec347.js"
   ]
 }
