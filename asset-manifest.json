@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Hariharan-Arjunan/my-portal/static/css/main.1e4d29a8.css",
+    "main.js": "/Hariharan-Arjunan/my-portal/static/js/main.4159551a.js",
+    "static/media/Form.png": "/Hariharan-Arjunan/my-portal/static/media/Form.12b600843bd97258b669.png",
+    "static/media/Question.png": "/Hariharan-Arjunan/my-portal/static/media/Question.040081353881e50db9b9.png",
+    "static/media/UiCmp.png": "/Hariharan-Arjunan/my-portal/static/media/UiCmp.219b6973870212d2fc7b.png",
+    "static/media/Src.png": "/Hariharan-Arjunan/my-portal/static/media/Src.507d990d3c97d74ff13e.png",
+    "static/media/FormFields.png": "/Hariharan-Arjunan/my-portal/static/media/FormFields.0e193244a8eff83e99f0.png",
+    "static/media/FunctionalCmp.png": "/Hariharan-Arjunan/my-portal/static/media/FunctionalCmp.bf675c03a6e0d4738617.png",
+    "index.html": "/Hariharan-Arjunan/my-portal/index.html",
+    "main.1e4d29a8.css.map": "/Hariharan-Arjunan/my-portal/static/css/main.1e4d29a8.css.map",
+    "main.4159551a.js.map": "/Hariharan-Arjunan/my-portal/static/js/main.4159551a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e4d29a8.css",
+    "static/js/main.4159551a.js"
+  ]
+}
