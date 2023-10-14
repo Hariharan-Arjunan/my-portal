@@ -72,7 +72,7 @@ const Details = [
     image: images.FormFields,
   },
   {
-    title: "Source",
+    title: "Form",
     description: `The form structure will be fully dynamic. We can easily perform operations like changing the question orders, 
     validation message for each question, add or remove questions`,
     image: images.Form,
