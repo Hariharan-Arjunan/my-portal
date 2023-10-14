@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <ThemeProvider theme={LightColorPalette}>
-        <BrowserRouter>
+        <BrowserRouter basename="/my-portal">
           <Routes>
             <Route element={<FullPage />}>
               <Route path="/" element={<Crud />} />
