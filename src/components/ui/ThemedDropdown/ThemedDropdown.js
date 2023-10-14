@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StyledSelect = styled.select`
   width: 100%;
   font-size: 1rem;
-  padding: 0%.625rem 0.75rem;
+  padding: 0.625rem 0.75rem;
   cursor: pointer;
 `;
 

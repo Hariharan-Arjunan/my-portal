@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, useContext } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components";
 import ThemedIcon from "../ThemedIcon/ThemedIcon";
 
@@ -19,13 +19,8 @@ const HintTrigger = styled.span`
 `;
 
 const ThemedHint = (props) => {
-  const { children, color, size, hover, noclick } = props;
+  const { children, color, size } = props;
   const [isHintVisible, toggleHintVisibility] = useState(false);
-
-  const toggleHintBox = (e) => {
-    e.preventDefault();
-    toggleHintVisibility(!isHintVisible);
-  };
 
   const useOutsideClick = (ref, callback) => {
     const handleClick = (e) => {

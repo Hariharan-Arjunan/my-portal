@@ -1,7 +1,7 @@
 import React from "react";
 import { css, styled } from "styled-components";
 import PropsTypes from "prop-types";
-import ThemedHint from "../ThemedHint/ThemedHint";
+// import ThemedHint from "../ThemedHint/ThemedHint";
 
 const StyledLabel = styled.label`
   position: relative;
@@ -45,12 +45,12 @@ const StyledLabel = styled.label`
     `}
 `;
 
-const HintContent = styled.div`
-  position: absolute;
-  top: 10%;
-  left: 100%;
-  padding-left: 10px;
-`;
+// const HintContent = styled.div`
+//   position: absolute;
+//   top: 10%;
+//   left: 100%;
+//   padding-left: 10px;
+// `;
 
 const ThemedLabel = (props) => {
   const {
@@ -61,7 +61,7 @@ const ThemedLabel = (props) => {
     large,
     fontWidth,
     isMargin,
-    hint,
+    // hint,
     hintRight,
     width,
     padding,

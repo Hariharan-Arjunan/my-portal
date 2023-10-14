@@ -1,54 +1,55 @@
-import React, { useState } from "react";
+import React from "react";
 import { styled } from "styled-components";
-
-const ThemedLabel = styled.label`
-  cursor: pointer;
-  ${(props) =>
-    props.isChecked && `background-color : ${props.theme.input.disabled}`}
-`;
-
-const StyledInput = styled.input`
-  /* display: none; */
-`;
 
 const RadioGroupWrapper = styled.div`
   display: flex;
 `;
 
 const Container = styled.div`
-  width: 10%;
-  height: 5%;
-  padding: 10px;
-  background-color: ${(props) => props.theme.primary};
-  display: block;
+  width: 80px;
+  height: 40px;
   text-align: center;
   margin: 5px 20px 5px 0;
+  border: ${(props) => props.theme.indigoDark} 2px solid;
   border-radius: 30px;
   cursor: pointer;
-  ${(props) =>
-    props.isChecked && `background-color : ${props.theme.input.disabled}`}
+
+  ${(props) => props.isChecked && `background-color: red`}
+`;
+
+const ThemedLabel = styled.label`
+  cursor: pointer;
+  color: black;
+`;
+
+const StyledInput = styled.input`
+  margin: 2px;
+`;
+
+const StyledName = styled.div`
+  padding-top: 5px;
 `;
 
 const ThemedRadioGroupInput = (props) => {
-  const [selectedOption, setSelectedOption] = useState("");
-  const { options } = props;
+  const { options, name } = props;
 
   return (
     <RadioGroupWrapper {...props}>
       {options.map((option) => {
         return (
-          <Container onChange={(e) => setSelectedOption(e.target.value)}>
-            <ThemedLabel
-              htmlFor={option.value}
-              isChecked={option.value === selectedOption}
-            >
+          <Container>
+            <StyledName>
               <StyledInput
+                name={name}
                 type="radio"
                 value={option.value}
-                key={option.value}
-                id={option.value}
+                checked={option.value === props.value}
+                key={`${name}--${option.value}`}
+                id={`${name}--${option.value}`}
               />
-            </ThemedLabel>
+              {option.label}
+              <ThemedLabel htmlFor={`${name}-${option.value}`}></ThemedLabel>
+            </StyledName>
           </Container>
         );
       })}
